@@ -1,6 +1,10 @@
-<section>
-  <h1>{{userProfile.name}}</h1>
-  <p>{{userProfile.contact}}</p>
-  <p>{{userProfile.bio}}</p>
-  <a routerLink="/edit-profile">Edit</a>
+<section id="outer-sec">
+  <img src="../../assets/Selfie1_cropped.jpg" alt="Profile Picture">
+  <div id="inner-div">
+    <h1>{{userProfile.name}}</h1>
+    <p id="contact-text">{{userProfile.contact}}</p>
+    <p>{{userProfile.bio}}</p>
+    <a routerLink="/edit-profile">Edit</a>
+  </div>
+
 </section>
