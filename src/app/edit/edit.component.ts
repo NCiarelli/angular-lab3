@@ -10,12 +10,13 @@ import { Router } from '@angular/router';
 })
 export class EditComponent implements OnInit {
 
-  userProfile: UserProfile = { name: "", contact: "", bio: "" };
+  userProfile: UserProfile;
 
   constructor(private profileService: ProfileService,
     private router: Router) { }
 
   ngOnInit() {
+    this.userProfile = this.profileService.getUserProfile();
   }
 
   updateProfile() {

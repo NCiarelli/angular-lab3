@@ -3,6 +3,7 @@
   border-radius: 15px;
   box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
   overflow: hidden;
+  margin: auto;
 }
 
 img {
